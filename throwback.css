@@ -1,0 +1,98 @@
+* {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+p, h1, h2 {
+	cursor: default;
+}
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300 !important;
+	color: #555;
+	background-color: #fff;
+	text-align: center;
+}
+div {
+	float: left
+}
+#aboutBlurb {
+	text-align: center;
+	width: 80%;
+	margin-left: 10%;
+	font-size: 180%;
+	margin-bottom: 170px;
+ 	font-weight: 10 !important;
+}
+.myheaders {
+ text-align: center;
+ font-size: 600%;
+ font-style: normal;
+ margin-top:190px;
+ color: #0099ff;
+}
+.mydividers {
+ border:none;
+ width:85%;
+ background-color: #0099ff;
+ height: 2px;
+ margin-top:20px;
+}
+
+
+
+#project1 {
+	background-image: url('flash/view1.png');
+}
+#project2 {
+	background-image: url('flash/view2.png');
+}
+#project3 {
+	background-image: url('flash/view3.png');
+}
+#project4 {
+	background-image: url('flash/view4.png');
+}
+#project5 {
+	background-image: url('flash/view5.png');
+}
+#project6 {
+	background-image: url('flash/view6.png');
+}
+#project7 {
+	background-image: url('flash/view7.png');
+}
+#project8 {
+	background-image: url('flash/view8.png');
+}
+
+
+
+.projectRows {
+	width: 100%;
+	margin-top: 1.5625%;
+}
+.project {
+	background-repeat:no-repeat;
+	background-size: cover;
+	box-shadow: 		0px 0px 20px #000;
+    -moz-box-shadow: 	0px 0px 20px #000;
+	-webkit-box-shadow: 0px 0px 20px #000;
+}
+.projectLeft {
+	margin-right: 1.5625%;
+}
+.pview {
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 20;
+}
+.pdes {
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 30;
+}
